@@ -7,9 +7,475 @@
 </head>
 <body>
     <script>
+        
+    // //task1
+    // function printDigits (text){
+    //     for (var i = 0; i < text.length; i++) {
+    //         console.log(text[i])
+    //     }
+    // }
+    // var israel = "israel"
+
+    //task2
+    // function printIndex (text){
+    //     for (var i = 0; i < text.length; i++){
+    //         console.log(text[i] + i)
+    //     }
+    // }
+    // var israel = "israel"
+
+    //task 2 jacob
+    // function getNewStringWith(strParam){
+    //     var newStr=" ";
+    //     for(var i=0; i<strParam.length; i++){
+    //         newStr = newStr + strParam[i] + i
+    //     }
+    //     return newStr;
+    // }
+    // console.log(getNewStringWith("say my name"))
+
+    //task3
+    // function pairs (text){
+    //     for (var i = 0; i < text.length; i++){
+    //         if (i == 0 || i % 2 == 0){
+    //             i = 2;
+    //             console.log(text[i])
+    //         }
+    //     return    
+    //     }
+    // }
+
+    //task3 jacob
+    // function changeStringIndexEven(strParam){ 
+    //     var newstring=""; 
+    //     for (var i = 0; i < strParam.length; i++){ 
+    //         if (i % 2 == 0){
+    //             newstring = newstring + 2
+    //         }   
+    //         else { 
+    //             newstring = newstring + strParam[i]
+    //         }
+    //     }
+    //     return newstring;
+    // }    
+    // var israel = "israel"
+    // console.log(changeStringIndexEven(israel));
+
+    //task4
+    // function NameA (name){
+    //     if(name[0]== "A" || name[0] == "a"){
+    //         console.log("Hello")
+    //     }
+    //     else{
+    //         console.log("Bye")
+    //     }
+        
+    // }
+    // var name = prompt("insert your name");
+    // NameA(name); 
+
+
+    //task 5
+    // function NameE (name){
+    //    var lastDigit = name[name.length-1]
+    //    if(lastDigit=="e"){
+    //     console.log("yes")
+    //    }
+    //    else{
+    //     console.log("no")
+    //    }
+    // }
+    // var name = prompt("family name")   
+    // NameE(name)
+
+    //task 6
+    // function upercase (str){
+    //     return str.toUpperCase();
+    // }
+    // var str = prompt("insert a word")
+    // console.log(upercase(str))
+
+    //task7
+    // var n1 = 2
+    // var n2 = 5
+    // var n3 = 9
+    // var n4 = 3
+    // function seqNumbers (numbers){
+    //     var seq = [n1,n2,n3,n4]
+    //     console.log(seq)
+    // }
+    // seqNumbers(n1,n2,n3,n4)
+
+    //task8
+    // function randoNumberZeroTen(){
+    // return Math.floor(Math.random()*10)
+    // }
+    // console.log(randoNumberZeroTen());
+  
+
+    
+    
         //task33
+
+        
+        //task34
+
+        
+        //task35
+
+       
+        //task36
         
         
+        //task37
+        // var UserString = prompt("insert a word")
+        // function t37(){
+        //     if(UserString.length>5){
+        //         return "long word"
+        //     }
+        //     else {
+        //         return "short word"
+        //     }
+        // }
+        // console.log(t37(UserString))
+        
+        //task38
+        // var myString = "kilinski kilinski kilinski israel"
+        // var letter = "a"
+        // function t40(){
+        //     if (myString.indexOf(letter) !== -1){
+        //         return myString.indexOf("r")
+        //     }
+        //     else{
+        //         return "not found"
+        //     }
+        // }
+        // console.log(t40(myString, letter))
+        
+        //task39
+        // var myString = "kilinski israel"
+        // var letter = "r"
+        // function t40(){
+        //     if (myString.indexOf(letter) !== -1){
+        //         return true
+        //     }
+        //     else{
+        //         return false
+        //     }
+        // }
+        // console.log(t40(myString, letter))
+
+        
+        //task40
+        // var myString = "kilinski israel"
+        // var letter = prompt("insert a letter")
+        // function t40(){
+        //     if (myString.indexOf(letter) !== -1){
+        //         return true
+        //     }
+        //     else{
+        //         return false
+        //     }
+        // }
+        // console.log(t40(myString, letter))
+        
+        //task41
+        // function task41(string, caractere) {
+        //     var indexNum = string.indexOf(caractere);
+        //     if (indexNum !== -1) {
+        //         console.log("O caractere " +caractere+ " foi encontrado no index " +indexNum+ " da string");
+        //     } 
+        //     else {
+        //         console.log("O caractere " +caractere+ " não foi encontrado na string");
+        //     }
+        // }
+        // const minhaString = "kilinski";
+        // const meuCaractere = "i";
+        // task41(minhaString, meuCaractere);
+        
+        //task42/43
+        // var sayonara = "sayonara"
+        // function printTrheeDigits () {
+        //    return sayonara.substring(0, 3)
+        // }
+        // console.log(printTrheeDigits())
+        
+        //task44
+        // var sayonara = "sayonara"
+        // function printYtoFour () {
+        //    return sayonara.substring(sayonara.indexOf("y"), 6)
+        // }
+        // console.log(printYtoFour())
+
+        //task45
+        // var sayonara = "sayonara"
+        // function printOtoLength () {
+        //    return sayonara.substring(sayonara.indexOf("o"), sayonara.length)
+        // }
+        // console.log(printOtoLength())
+
+        //task47/46
+        // var UserString = prompt("insert a word")
+        // var UserIndex = +prompt("chose a index number")
+        // function getIndex3 () {
+        //     if (UserIndex <= UserString.length){
+        //         return UserString.substring(UserIndex, UserIndex.length)
+        //     }
+        //     else{
+        //         alert("index biiger than the word")
+        //     }
+        // }
+        // console.log(getIndex3())
+
+        
+        //task49/48
+        // var UserString = prompt("insert a word")
+        // var UserIndex = +prompt("chose a index number")
+        // function getIndex3 () {
+        //     if (UserIndex <= UserString.length){
+        //         return UserString.substring(UserIndex, UserIndex+3)
+        //     }
+        //     else{
+        //         alert("invalid number")
+        //     }
+        // }
+        // console.log(getIndex3())
+
+
+        //task50
+        // var word = prompt("insert a word")
+        // var n1 = +prompt("insert a number")
+        // var n2 = +prompt("insert another number")
+        // function t50 () {
+        //     if (n1 >= 0 && n2 >= n1 && n2 <= word.length) {
+        //         return word.substring(n1, n2);
+        //     } 
+        //     else {
+        //         return "Intervalo inválido";
+        //     }
+        // }
+        // console.log(t50())
+        //task53/52/51
+        // var sayonara = "sayonara";
+        // function getCharactersFromY() {
+        // return sayonara.substring(sayonara.indexOf('y'), sayonara.indexOf('y') + 4);
+        // }
+        // console.log(getCharactersFromY());
+        
+        //task56
+        // var Onum = 0
+        // var sayonara = "sayonara"
+        // function t56 (){
+        //     for (i = 0; i <= sayonara.length; i++){
+        //         if (sayonara[i] == "o"){
+        //             Onum++;
+        //         }
+        //     }
+        // return "there are " + Onum + " o's characters in the word 'sayonara'"
+        // }
+        // console.log(t56())
+        
+        //task55
+        // var name = prompt("Insira o seu nome");
+        // var lastName = prompt("Insira o sobrenome");
+        // var fullName = name + " " + lastName;
+
+        // function t55() {
+        //     var characters = name.length + lastName.length;
+        //     var spaces = 0;
+
+        //     for (var i = 0; i < fullName.length; i++) {
+        //         if (fullName[i] == " ") {
+        //             spaces++;
+        //         }
+        //     }
+
+        // return "Há " + characters + " caracteres e " + spaces + " espaços no seu nome completo.";
+        // }
+
+        // console.log(t55());
+        
+        //task56
+        // var w1 = prompt("insert a word")
+        // var w2 = prompt("insert another word")
+        // function t57 (){
+        //     if(w1 == w2 || w1.toLowerCase() == w2 || w1==w2.toLowerCase() 
+        //     || w1.toLowerCase() == w2.toLowerCase())
+        // return "the words are identical"
+        // }
+        // console.log(t57(w1, w2))
+
+        //task57
+        // var w1 = prompt("insert a word")
+        // var w2 = prompt("insert another word")
+        // function t57 (){
+        //     if(w1 == w2 || w1.toUpperCase() == w2 || w1==w2.toUpperCase() 
+        //     || w1.toUpperCase() == w2.toUpperCase())
+        // return "the words are identical"
+        // }
+        // console.log(t57(w1, w2))
+        
+        //task58
+        // var name = prompt("whats your name?")
+        // var lastName = prompt("whats your family name?")
+        // function t58(){
+        //     if (name.length > lastName.length){
+        //         return name
+        //     }
+        //     else if (name.length == lastName.length){
+        //         return "same size"
+        //     }
+        //     else{
+        //         return lastName
+        //     }
+        // }
+        // console.log(t58(name. lastName))
+
+        
+        //task59/60
+        // var name = prompt("whats your name?")
+        // var lastName = prompt("whats your family name?")
+        // function t60(){
+        //     for (var i = 0; i < name.length; i++)
+        //         if(name[i]="a" && lastName.indexOf["api"] !== -1){
+        //             return name + " " + lastName
+        //         }            
+        // }
+        // console.log(t60(name, lastName))
+      
+        //task61
+    //   var string = prompt("insert a word")
+    //   function t61 (){
+    //         if(string.length <= 5){
+    //             return "short"
+    //         }
+    //         else {
+    //             return "long"
+    //         }    
+    //   }
+    //   console.log(t61(string))
+      
+        //task62
+    //   var country = prompt("insert a country")
+    //   function t62 (){
+    //         if(country.length < 3){
+    //             return "yes"
+    //         }
+    //         else {
+    //             return "no"
+    //         }    
+    //   }
+    //   console.log(t62(country))
+
+        //task63
+    //   var string = prompt("insert a word")
+    //   var chacter = prompt("insert a charcter")
+    //   function task63 (){
+    //     if (string.length > 6){
+    //         return string+" has more than 6 digits"
+    //     }
+    //     for (var i = 0; i < string.length; i++){
+    //         if(string[i]==chacter){
+    //             var j = i + 1
+    //             return "the index position of your character is " + j
+    //         }
+    //     }
+    //   }
+    //   console.log(task63(string, chacter))
+    
+
+        //task64
+    //    var string = prompt("insert a word")
+    //    var chacter = prompt("insert a charcter")
+    //    function t64(string, chacter){
+    //         for (var i = 0; i < string.length; i++){
+    //             if (string[i] == chacter){
+    //                 return "the index position of your character is " + i
+    //             }
+    //         }
+    //     return "the character " + chacter + " do not exist in the word " + string    
+    //     }
+    //     console.log(t64(string, chacter))
+
+        //task65,66
+        // var name = prompt("insert your name")
+        // var lastName = prompt("insert your family name")
+        // function t65 (name, lastName){
+        //     return name[0].toUpperCase() + "." + " " + lastName.toUpperCase()
+        // }
+        // console.log(t65(name, lastName))
+
+        
+        //task67
+        // var lastName1 = prompt("insert a family name")
+        // var lastName2 = prompt("insert another family name")
+        // function t67 (lastName1, lastName2){
+        //     if (lastName1.length > lastName2.length)
+        //     return lastName1+" "+lastName2.toLowerCase()
+        //     else {
+        //         return "the second family name is bigger than the first"
+        //     }
+        // }
+
+        // console.log(t67(lastName1, lastName2))
+
+        //task 68
+
+        // function checkCharacter (word, character){
+        //     if (word.includes(character)){
+        //         return word
+        //     }
+        //     else {
+        //        return "the word do not contain the character"
+        //     }
+        // }
+
+        // function checkCharacter (word, character){
+        //     for (i=0; i<word.length; i++){
+        //         if (word[i] == character){
+        //             return word
+        //         }
+        //         else{
+        //             return "the word do not contain the character"
+        //         }
+        //     }
+        // }
+
+        // var word = prompt("insert a word")
+        // var character = prompt("insert a character")
+        // console.log(checkCharacter(word, character))
+
+       
+
+       //task69
+    //    function t69 () {
+    //     var word = prompt("What's your name?")
+    //     var myArray = [] 
+    //     var numofspaces = 0 
+    //     for (i=0; i < word.length; i++){
+    //         if (word[i] == " "){
+    //             myArray.push(i)
+    //             numofspaces += 1
+    //         }
+    //     }
+    //     if (numofspaces == 0){
+    //         console.log(word[0].toUpperCase() + word.substr(1,word.length))
+    //     }
+    //     else if (numofspaces == 1){
+    //         console.log([word])
+
+    //     }
+    //     else if (numofspaces == 2){
+    //         console.log(word.substr(0,myArray[0]));
+    //         console.log(word.substring(myArray[0] + 1, myArray[1]));
+    //         console.log(word.substr(myArray[1] + 1, word.length));
+    //     }
+        
+    //    }       
+    //    t69()
+    
+        
+                
         //task70
         // var user = {
         //     name: "Ben",
